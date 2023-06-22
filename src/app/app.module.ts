@@ -8,7 +8,6 @@ import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +15,8 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
     LoginComponent,
     SignupComponent,
     DashboardComponent,
-    DropdownComponent
+    DropdownComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
