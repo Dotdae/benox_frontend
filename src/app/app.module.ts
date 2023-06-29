@@ -8,6 +8,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { TaskProgressComponent } from './task-progress/task-progress.component';
+import { PanelUserComponent } from './panel-user/panel-user.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,9 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
     SignupComponent,
     DashboardComponent,
     DropdownComponent,
-    LoginComponent
+    LoginComponent,
+    TaskProgressComponent,
+    PanelUserComponent
   ],
   imports: [
     BrowserModule,
